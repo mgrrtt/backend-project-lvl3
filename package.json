@@ -1,0 +1,38 @@
+{
+  "name": "@hexlet/code",
+  "version": "1.0.0",
+  "description": "[![Actions Status](https://github.com/mgrrtt/backend-project-lvl3/workflows/hexlet-check/badge.svg)](https://github.com/mgrrtt/backend-project-lvl3/actions)",
+  "main": "index.js",
+  "type": "module",
+  "bin": {
+    "page-loader": "bin/page-loader.js"
+  },
+  "scripts": {
+    "test": "npx jest",
+    "test-watch": "npx jest --watch",
+    "test-cover": "npx jest --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mgrrtt/backend-project-lvl3.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mgrrtt/backend-project-lvl3/issues"
+  },
+  "homepage": "https://github.com/mgrrtt/backend-project-lvl3#readme",
+  "devDependencies": {
+    "eslint": "^8.5.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.25.3",
+    "nock": "^13.2.1"
+  },
+  "dependencies": {
+    "@jest/globals": "^27.4.4",
+    "axios": "^0.24.0",
+    "commander": "^8.3.0",
+    "jest": "^27.4.5",
+    "jest-cli": "^27.4.5"
+  }
+}
