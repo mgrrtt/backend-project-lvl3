@@ -31,6 +31,7 @@
   "dependencies": {
     "@jest/globals": "^27.4.4",
     "axios": "^0.24.0",
+    "cheerio": "^1.0.0-rc.10",
     "commander": "^8.3.0",
     "jest": "^27.4.5",
     "jest-cli": "^27.4.5"
